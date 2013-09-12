@@ -3,7 +3,7 @@
 ## Bootstrap a new dev machine with one command.
 
 ```
-
+bash <(curl -s https://raw.github.com/oldskool73/DevBootstrap/master/dev_install.sh)
 ```
 
 ### The WHY?
