@@ -43,7 +43,7 @@ brew cask install osxfuse
 brew tap homebrew/dupes
 brew tap josegonzalez/homebrew-php
 brew install autoconf automake
-brew install php54 php54-mcrypt php54-apc php54-memcached php54-xdebug
+brew install php54 php54-mcrypt php54-apc php54-memcached php54-xdebug phpunit
 sudo sed -i .bak 's,#LoadModule php5_module libexec/apache2/libphp5.so,LoadModule php5_module /usr/local/opt/php54/libexec/apache2/libphp5.so,g' /etc/apache2/httpd.conf
 sudo apachectl restart
 
