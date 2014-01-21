@@ -19,7 +19,7 @@ brew install git
 # install st2 & subl
 brew cask install sublime-text
 mkdir -p ~/bin && ln -s "/opt/homebrew-cask/Caskroom/sublime-text/2.0.2/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-echo 'export PATH=~/bin:$PATH' >> ~/.zshrc
+echo '\nexport PATH=~/bin:$PATH' >> ~/.zshrc
 
 # install iterm2
 brew cask install iterm2
@@ -59,7 +59,7 @@ brew install virtualhost.sh
 brew install rbenv ruby-build
 rbenv install 2.0.0-p247
 rbenv rehash
-echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+echo '\neval "$(rbenv init -)"' >> ~/.zshrc
 rbenv global 2.0.0-p247
 
 # install sass & compass
