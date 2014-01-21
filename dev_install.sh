@@ -27,11 +27,20 @@ brew cask install iterm2
 # install node
 brew install node
 
-# install yo grunt & bower
-npm install -g yo grunt-cli bower	
-
 # install phantom
 brew install phantomjs
+
+# install yo grunt & bower
+npm install -g yo grunt-cli bower
+
+#install other awesome js stuff
+npm install -g plato 
+npm install -g karma 
+npm install -g testem
+npm install -g groc
+npm install -g generator-angular
+npm install -g generator-bootstrap
+npm install -g generator-generator
 
 #install fuse
 brew install fuse4x fuse4x-kext s3fs
