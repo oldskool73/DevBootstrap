@@ -66,6 +66,7 @@ brew install virtualhost.sh
 
 # install latest ruby
 brew install rbenv ruby-build
+# TODO - figure out how to install latest instead of hard coded??
 rbenv install 2.0.0-p247
 rbenv rehash
 echo '\neval "$(rbenv init -)"' >> ~/.zshrc
