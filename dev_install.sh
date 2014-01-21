@@ -82,11 +82,12 @@ brew install aws-elasticbeanstalk s3cmd
 brew cask install alfred
 brew cask alfred link
 
-# standard softwares...
+# standard cask based softwares...
 brew cask install charles 
 brew cask install colloquy 
 brew cask install cord 
-brew cask install cyberduck 
+brew cask install cyberduck
+brew cask install chicken 
 brew cask install diffmerge 
 brew cask install dropbox 
 brew cask install firefox 
@@ -99,6 +100,9 @@ brew cask install vlc
 brew cask install virtualbox 
 brew cask install vagrant
 brew cask install spectacle
+brew cask install curl
+brew cask install mongodb
+brew cask install redis
 
 # install IE test VM's (large! ~7.5G)
 # https://github.com/xdissent/ievms
