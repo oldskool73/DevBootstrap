@@ -88,6 +88,7 @@ brew cask install sourcetree
 brew cask install vlc 
 brew cask install virtualbox 
 brew cask install vagrant
+brew cask install spectacle
 
 # install IE test VM's (large! ~7.5G)
 # https://github.com/xdissent/ievms
