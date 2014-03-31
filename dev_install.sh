@@ -24,8 +24,11 @@ echo '\nexport PATH=~/bin:$PATH' >> ~/.zshrc
 # install iterm2
 brew cask install iterm2
 
-# install node
-brew install node
+# install node without npm
+brew install node --without-npm
+
+#install npm separately
+curl -L https://npmjs.org/install.sh | sh
 
 # install phantom
 brew install phantomjs
